@@ -16,9 +16,8 @@ public class Employee {
     private String first_name;
     @Column(length = 255)
     private String last_name;
-    @Column(name = "Email", unique = true)
+    @Column(unique = true)
     private String email;
-    @Column(name = "Age")
     private int age;
 
 }
